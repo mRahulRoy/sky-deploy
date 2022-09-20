@@ -1,0 +1,10 @@
+/node_modules
+node_modules/
+frontend/node_modules/
+/frontend/.env
+.env
+config.env
+frontend/config.env
+config.env
+.env
+*node_modules/*
