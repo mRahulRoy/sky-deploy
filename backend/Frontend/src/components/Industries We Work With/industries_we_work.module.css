@@ -1,0 +1,104 @@
+/* industries we work with starts here */
+.industries_work_section {
+  padding: 30px 0;
+  background-repeat: no-repeat;
+  background-color: #fcf5f5;
+}
+
+.industries_work_section .industry_work_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.industries_work_section .industry_work_wrapper .industry_heading {
+  margin: 10px 0 30px 0;
+}
+
+.industries_work_section .industry_work_wrapper .industry_heading h3 {
+  font-size: 2.8rem;
+  color: #071c4d;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.industries_work_section .industry_work_wrapper .industry_heading p {
+  font-size: 1.6rem;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+.industries_work_section .industry_work_wrapper .deals_with_cont {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+  padding: 20px 0;
+}
+
+.industries_work_section .industry_work_wrapper .deals_with_cont .field {
+  width: 150px;
+  transition: 0.5s all;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 120px;
+  background-color: white;
+  border-radius: 7px;
+  font-family: "Roboto", sans-serif;
+  color: #2a3c66;
+}
+.industries_work_section .industry_work_wrapper .deals_with_cont .field:hover {
+  transform: translateY(-5px);
+  box-shadow: rgb(13 21 55 / 6%) 0 5px 50px;
+}
+
+.industries_work_section .industry_work_wrapper .deals_with_cont .field h6 {
+  font-size: 1.5rem;
+}
+
+.industries_work_section .industry_work_wrapper .deals_with_cont .field img {
+  width: 30px;
+}
+
+/* media querries */
+
+@media (max-width: 1132px) {
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 995px) {
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 714px) {
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+  }
+}
+
+@media (max-width: 602px) {
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(1, 1fr);
+
+    justify-items: center;
+    grid-row-gap: 30px;
+  }
+  .industries_work_section .industry_work_wrapper .deals_with_cont .field {
+    width: 157px;
+    height: 173px;
+  }
+}

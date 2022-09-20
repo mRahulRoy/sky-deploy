@@ -1,0 +1,466 @@
+/* page header starts */
+.page_header_container {
+  background-color: #0b163f;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.page_header_container {
+  background-image: url("../../img/blur-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ position: relative;
+  background-position: center;
+}
+
+.page_header_container .page_header {
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.page_header_container .page_header .main_heading {
+  width: 70%;
+}
+
+.page_header_container .page_header .main_heading h1 {
+  font-size: 3.1rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.page_header_container .page_header .main_heading p.lead {
+  font-size: 1.7rem;
+  color: #d6d5e1;
+  line-height: 1.7;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+
+}
+
+/* top or first feature section */
+.iphone_feature_section {
+  background-color: #fffbfb;
+  padding: 30px 0;
+}
+
+.iphone_feature_section .iphone_feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.iphone_feature_section .iphone_feature_wrapper .iphone_feature_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.iphone_feature_section .iphone_feature_wrapper .iphone_feature_content .left {
+  display: flex;
+  background-image: url(../../img/shape/dot-big-square.png);
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+
+  background-position: 12px 3px;
+}
+
+.iphone_feature_section
+  .iphone_feature_wrapper
+  .iphone_feature_content
+  .left
+  img {
+  width: 70%;
+}
+
+.iphone_feature_section .iphone_feature_wrapper .iphone_feature_content .right {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.iphone_feature_section
+  .iphone_feature_wrapper
+  .iphone_feature_content
+  .right
+  p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #575757;
+  font-weight: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.iphone_feature_section
+  .iphone_feature_wrapper
+  .iphone_feature_content
+  .right
+  ul
+  li {
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 1.6rem;
+  margin: 10px 0;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+.our_services {
+  font-size: 1.5rem;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+
+  margin-top: 20px;
+  color: #575757;
+}
+
+.iphone_feature_section .iphone_feature_wrapper .iphone_feature_heading {
+  margin-bottom: 20px;
+}
+
+.iphone_feature_section .iphone_feature_wrapper .iphone_feature_heading h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: #071c4d;
+}
+
+/* iphone testimonial */
+
+.iphone_testimonial_section {
+  padding: 50px 0;
+  background-color: #0b163f;
+}
+
+.iphone_testimonial_section .iphone_testimonial_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.iphone_testimonial_section
+  .iphone_testimonial_wrapper
+  .iphone_testimonial_heading
+  h3 {
+  text-align: center;
+  color: #ffb116;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.iphone_testimonial_section
+  .iphone_testimonial_wrapper
+  .iphone_testimonial_heading
+  h2 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 7px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.iphone_testimonial_section
+  .iphone_testimonial_wrapper
+  .iphone_testimonial_heading
+  p {
+  text-align: center;
+  color: white;
+  line-height: 1.7;
+  padding: 0 100px;
+  font-family: "Poppins", sans-serif;
+
+  font-size: 1.4rem;
+}
+
+.iphone_testimonial_section .iphone_testimonial_wrapper .integrations_wrapper {
+  margin: 50px 0;
+  padding: 30px;
+  /* border: 1px solid white; */
+  color: white;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.iphone_testimonial_section
+  .iphone_testimonial_wrapper
+  .integrations_wrapper
+  .integration {
+  /* border: 1px solid white; */
+  padding: 20px;
+  width: 330px;
+  border-radius: 7px;
+  transition: 0.5s all;
+  background: #0b163f;
+  box-shadow: 27px 27px 52px #09195a, -27px -27px 52px #0e1d53;
+}
+.iphone_testimonial_section
+  .iphone_testimonial_wrapper
+  .integrations_wrapper
+  .integration:hover {
+  transform: translateY(-5px);
+  box-shadow: 1px 2px 8px #fcfcfc5e;
+}
+
+.iphone_testimonial_section
+  .iphone_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .tool_stack {
+  text-align: center;
+  width: 100%;
+}
+.iphone_testimonial_section
+  .iphone_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .tool_stack
+  .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.iphone_testimonial_section
+  .iphone_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .tool_stack
+  .link
+  span {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  text-align: center;
+  background: #0b163f;
+  box-shadow: 0px 0 0px #050a1c, 1px -1px 4px #112262;
+  animation: spin 5s infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.iphone_testimonial_section
+  .iphone_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .tool_stack
+  span
+  img {
+  width: 50%;
+  margin: 4px;
+}
+
+.iphone_testimonial_section
+  .iphone_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .content {
+  margin: 12px 0;
+  text-align: center;
+  padding: 12px;
+}
+
+.iphone_testimonial_section
+  .iphone_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .content
+  h2 {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: blue;
+}
+
+.iphone_testimonial_section
+  .iphone_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .content
+  p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  font-family: "Poppins", sans-serif;
+
+  color: #fafafd;
+  margin-top: 12px;
+}
+
+
+/* some apps made by skywalk */
+
+.apps_container {
+  background-color: #fffbfb;
+}
+.apps_container .apps_content_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.apps_container .apps_content_wrapper .heading {
+
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.apps_container .apps_content_wrapper .heading h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #071c4d;
+  margin-bottom: 12px;
+  font-weight: 900;
+}
+.apps_container .apps_content_wrapper .heading p {
+  font-size: 1.7rem;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #4a5a80;
+  font-weight: 900;
+}
+.apps_container .apps_content_wrapper .apps_content_cont {
+  display: flex;
+}
+.apps_container .apps_content_wrapper .apps_content_cont .left_cont {
+  width: 50%;
+  /* border: 2px solid rgb(49, 22, 225); */
+}
+.apps_container .apps_content_wrapper .apps_content_cont .right_cont {
+  width: 50%;
+  /* border: 2px solid yellow; */
+}
+.apps_container .apps_content_wrapper .apps_content_cont .right_cont {
+  display: flex;
+  gap: 35px;
+  padding-top: 40px;
+}
+.apps_container
+  .apps_content_wrapper
+  .apps_content_cont
+  .right_cont
+  .tree_icon_cont {
+  display: flex;
+  width: 500px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e4d4d4;
+}
+.apps_container
+  .apps_content_wrapper
+  .apps_content_cont
+  .right_cont
+  .tree_icon_cont
+  .icon {
+  font-size: 2.9rem;
+  color: #e4d4d4;
+}
+.apps_container
+  .apps_content_wrapper
+  .apps_content_cont
+  .right_cont
+  .tree_icon_cont
+  .icon:hover {
+  color: #0d6efd;
+}
+.apps_container
+  .apps_content_wrapper
+  .apps_content_cont
+  .right_cont
+  .marketing_content
+  h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #071c4d;
+  font-family: "Roboto", sans-serif;
+}
+.apps_container
+  .apps_content_wrapper
+  .apps_content_cont
+  .right_cont
+  .marketing_content
+  p {
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
+
+  color: #7f7f7f;
+}
+.apps_container .apps_content_wrapper .apps_content_cont .left_cont img {
+  width: 100%;
+}
+
+/* media querries */
+
+/* -------------media querries--------------- */
+
+@media (max-width: 888px) {
+  .iphone_testimonial_section
+    .iphone_testimonial_wrapper
+    .integrations_wrapper {
+    grid-template-columns: 1fr;
+  }
+  .iphone_testimonial_section
+    .iphone_testimonial_wrapper
+    .integrations_wrapper
+    .integration {
+    width: 100%;
+  }
+  .page_header_container .page_header .main_heading {
+    width: 100%;
+    position: relative;
+   
+  }
+}
+
+@media (max-width: 1132px) {
+ 
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .iphone_feature_section .iphone_feature_wrapper .iphone_feature_content {
+    grid-template-columns: 1fr;
+  }
+  .iphone_feature_section
+    .iphone_feature_wrapper
+    .iphone_feature_content
+    .right {
+    order: -1;
+  }
+}
+
+
+@media (max-width: 862px) {
+  .page_header_container .page_header .main_heading h1 {
+    font-size: 3.1rem;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 17px;
+    font-weight: 900;
+  }
+
+  .apps_container .apps_content_wrapper .apps_content_cont {
+    flex-direction: column-reverse;
+  }
+  .apps_container .apps_content_wrapper .apps_content_cont .left_cont {
+    width: 100%;
+  }
+  .apps_container .apps_content_wrapper .apps_content_cont .right_cont {
+    width: 100%;
+  }
+}
+
+

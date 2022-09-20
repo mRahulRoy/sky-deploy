@@ -1,0 +1,336 @@
+/* page header starts */
+
+.page_header_container {
+  background-color: #0b163f;
+  padding: 60px 0;
+  overflow: hidden;
+
+}
+
+.page_header_container {
+  /* background-image: url("../../img/Website-Design-Company-Gurgaon.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain; */
+
+  background-image: url("../../img/blur-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ position: relative;
+  background-position: center;
+}
+
+.page_header_container .page_header {
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page_header_container .page_header .main_heading {
+  width: 70%;
+}
+
+.page_header_container .page_header .main_heading h1 {
+  font-size: 3.1rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 17px;
+  font-weight: 900;
+}
+
+.page_header_container .page_header .main_heading p.lead {
+  font-size: 1.7rem;
+  color: #d6d5e1;
+  line-height: 1.8;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*---top or first feature section--- */
+.android_feature_section {
+  background-color: #fffbfb;
+  padding: 40px 0;
+}
+
+.android_feature_section .android_feature_wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.android_feature_section .android_feature_wrapper .android_feature_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.android_feature_section .android_feature_wrapper .android_feature_content .left {
+  display: flex;
+  background-image: url(../../img/shape/dot-big-square.png);
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+
+  /* background-position: 12px 3px; */
+}
+
+.android_feature_section .android_feature_wrapper .android_feature_content .left img {
+  width: 70%;
+}
+
+.android_feature_section .android_feature_wrapper .android_feature_content .right {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.android_feature_section .android_feature_wrapper .android_feature_content .right h2 {
+  font-size: 3rem;
+  color: #071c4d;
+  margin-bottom: 6px;
+  font-weight: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.android_feature_section .android_feature_wrapper .android_feature_content .right p {
+  font-size: 1.7rem;
+  line-height: 1.7;
+  color: #575757;
+  text-align: justify;
+  font-weight: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.our_services {
+  font-size: 1.5rem;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+
+  margin-top: 20px;
+  color: #575757;
+}
+
+/* media querries */
+
+@media (max-width: 933px) {
+  .apps_container .apps_content_wrapper .apps_content_cont {
+    flex-direction: column-reverse;
+  }
+
+  .apps_container .apps_content_wrapper .apps_content_cont .left_cont {
+    width: 100%;
+  }
+
+  .apps_container .apps_content_wrapper .apps_content_cont .right_cont {
+    width: 100%;
+  }
+}
+
+/* mobile service features section */
+.mobile_service_section {
+  background-color: #0b163f;
+  color: white;
+  padding: 20px 0;
+}
+
+.mobile_service_section .mobile_services_wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.mobile_service_section .mobile_services_wrapper .mobile_heading {
+ 
+  text-align: center;
+  margin-bottom: 25px;
+
+}
+
+.mobile_service_section .mobile_services_wrapper .mobile_heading h3 {
+  font-size: 2.3rem;
+  -webkit-font-smoothing: antialiase;
+  font-family: "Poppins", sans-serif;
+}
+
+.mobile_service_section .mobile_services_wrapper .mobile_heading h2 {
+  font-size: 3rem;
+  margin: 10px 0;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Poppins", sans-serif;
+}
+
+.mobile_service_section .mobile_services_wrapper .mobile_heading p {
+  font-size: 1.6rem;
+  color: #d6d5e1;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.mobile_service_section .mobile_services_wrapper .mobile_service_content {
+  display: flex;
+}
+
+.mobile_service_section .mobile_services_wrapper .mobile_service_content .box1 {
+  width: 50%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+}
+
+.mobile_service_section .mobile_services_wrapper .mobile_service_content .sub_box1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mobile_service_section .mobile_services_wrapper .mobile_service_content .box1 .box {
+  height: 200px;
+  width: 180px;
+
+}
+
+
+.flutter_container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  background-image: url("../../img/shape/blob.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+
+.flutter_container .flutter_container_inner_left {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flutter_container .flutter_container_inner_right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.flutter_container .flutter_container_inner .flutter_container_item{
+  transition: all .5s linear;
+}
+.flutter_container .flutter_container_inner .flutter_container_item:hover{
+  
+  transform: translateY(-5px);
+  box-shadow: rgb(13 21 55 / 6%) 0 5px 50px;
+}
+.flutter_container .flutter_container_inner .flutter_container_item .flutter_container_img {
+
+  text-align: center;
+  padding: 55px;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+}
+
+
+.android_feature_section .android_feature_wrapper .android_feature_content .right ul li {
+  list-style-type: disc;
+  margin-bottom: 12px;
+  font-size: 1.7rem;
+  color: #575757;
+}
+.android_feature_section .android_feature_wrapper .android_feature_content .right ul li >strong {
+  color: #575757;
+}
+.flutter_container .flutter_container_inner .flutter_container_item .flutter_container_img .flutter_container_item_heading {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+@media (max-width: 604px){
+  .flutter_container{
+    flex-direction: column;
+  }
+  .flutter_container .flutter_container_inner .flutter_container_item {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .flutter_container {
+    margin-top: 80px px;
+    display: inline-grid;
+    justify-items: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 542px) {
+  .flutter_container {
+    margin-top: 80px;
+  }
+}
+
+@media(max-width:943px) {
+  .flutter_container {
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+
+  }
+
+  .flutter_container .flutter_container_inner_right {
+    flex-direction: column;
+  }
+
+  .flutter_container .flutter_container_inner_left {
+    order: 1;
+    justify-content: center;
+  }
+
+  .flutter_container .flutter_container_inner .flutter_container_item .flutter_container_img .flutter_container_item_heading {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+}
+
+/* ------media querries----- */
+
+@media (max-width: 1132px) {
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .android_feature_section .android_feature_wrapper .android_feature_content {
+    grid-template-columns: 1fr;
+  }
+
+  .android_feature_section .android_feature_wrapper .android_feature_content .right {
+    order: -1;
+  }
+}
+
+
+
+@media (max-width: 862px) {
+  .page_header_container .page_header .main_heading h1 {
+    font-size: 3.1rem;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 17px;
+    font-weight: 900;
+  }
+
+
+    .page_header_container .page_header .main_heading {
+      width: 100%;
+      position: relative;
+     
+    }
+}
+
+@media (max-width:602px){
+  .android_feature_section .android_feature_wrapper .android_feature_content .left{
+    background-image: none;
+  }
+}
+

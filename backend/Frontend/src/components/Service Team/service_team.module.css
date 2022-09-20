@@ -1,0 +1,103 @@
+.team_wrapper {
+  background-color: #fffbfb;
+  padding-top: 40px;
+}
+.team_wrapper .content_cont {
+  width: 90%;
+  margin: 0 auto;
+}
+.team_wrapper .content_cont .title {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.team_wrapper .content_cont .title h2{
+  font-size: 3.5rem;
+}
+.team_wrapper .content_cont .flex_wrapper {
+  display: flex;
+}
+.team_wrapper .content_cont .flex_wrapper .left_faq_wrapper {
+  width: 50%;
+  /* background-color: red; */
+}
+.team_wrapper .content_cont .flex_wrapper .right_wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(0, 135, 142); */
+}
+.team_wrapper .content_cont .flex_wrapper .right_wrapper img {
+  width: 78%;
+  /* background-color: rgb(0, 135, 142); */
+ 
+}
+.team_wrapper .content_cont .flex_wrapper .left_faq_wrapper .faq_item {
+  display: grid;
+  grid-template-columns: .3fr 1fr;
+  margin-bottom: 25px;
+}
+
+.team_wrapper .content_cont .flex_wrapper .left_faq_wrapper .faq_item .sequence{
+  /* border: 2px solid red; */
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team_wrapper .content_cont .flex_wrapper .left_faq_wrapper .faq_item .sequence img{
+ 
+ width: 70%;
+
+}
+.team_wrapper .content_cont .flex_wrapper .left_faq_wrapper .faq_item h2 span {
+  font-size: 3.2rem;
+  color: #175cff;
+  margin-right: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+.team_wrapper .content_cont .flex_wrapper .left_faq_wrapper .faq_item h2 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+.team_wrapper .content_cont .flex_wrapper .left_faq_wrapper .faq_item p {
+  font-size: 2rem;
+  line-height: 1.6;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+/* media querry */
+@media (max-width: 859px) {
+  .team_wrapper .content_cont .flex_wrapper .left_faq_wrapper {
+    width: 100%;
+  }
+  .team_wrapper .content_cont .flex_wrapper {
+    flex-direction: column;
+  }
+  .team_wrapper .content_cont .flex_wrapper .right_wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width:778px){
+  .team_wrapper .content_cont .flex_wrapper .left_faq_wrapper .faq_item{
+    margin-bottom: 4%;
+
+  }
+}
+
+@media (max-width:680px){
+
+  .team_wrapper .content_cont .title h2{
+    font-size: 2.5rem;
+  }
+  .team_wrapper .content_cont .flex_wrapper .left_faq_wrapper .faq_item {  
+    width: 100%;
+  }
+}

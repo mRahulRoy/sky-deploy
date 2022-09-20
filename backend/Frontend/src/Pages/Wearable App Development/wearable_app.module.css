@@ -1,0 +1,768 @@
+/* page header starts */
+.page_header_container {
+  background-color: #0b163f;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.page_header_container {
+  background-image: url("../../img/blur-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ position: relative;
+  background-position: center;
+}
+
+.page_header_container .page_header {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page_header_container .page_header .main_heading {
+  width: 70%;
+}
+
+.page_header_container .page_header .main_heading h1 {
+  font-size: 3.1rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.page_header_container .page_header .main_heading p.lead {
+  font-size: 1.7rem;
+  color: #d6d5e1;
+  line-height: 1.7;
+  text-align: justify;
+font-family:  'Poppins', sans-serif;
+  
+}
+/* feature section starts here */
+.game_feature_section {
+  background-color: #fffbfb;
+  padding: 30px 0;
+}
+
+.game_feature_section .game_feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.game_feature_section .game_feature_wrapper .game_feature_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.game_feature_section .game_feature_wrapper .game_feature_content .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game_feature_section .game_feature_wrapper .game_feature_content .left img {
+  width: 70%;
+}
+
+.game_feature_section .game_feature_wrapper .game_feature_content .right {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.game_feature_section .game_feature_wrapper .game_feature_content .right p {
+  font-size: 1.7rem;
+  line-height: 1.7;
+  color: #575757;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
+
+.game_feature_section .game_feature_wrapper .game_feature_content .right ul li {
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 1.6rem;
+  margin: 15px 0;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+.our_services {
+  font-size: 1.5rem;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+
+  margin-top: 20px;
+  color: #575757;
+}
+
+.game_feature_section .game_feature_wrapper .game_feature_heading {
+  margin-bottom: 20px;
+}
+
+.game_feature_section .game_feature_wrapper .game_feature_heading h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: #071c4d;
+}
+
+/* our features sectin starts here */
+.our_features {
+  background-color: #fffbfb;
+  padding: 40px 0;
+}
+.our_features .our_feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.our_features .our_feature_wrapper .our_feature_heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.our_features .our_feature_wrapper .our_feature_heading h3 {
+  text-align: center;
+  font-size: 3.4rem;
+  color: #071c4d;
+  margin: 12px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.our_features .our_feature_wrapper .our_feature_cards .card {
+  padding: 40px;
+  background-color: white;
+  border: 1.2px solid #57575721;
+  transition: 0.5s all;
+  border-radius: 5px;
+}
+.our_features .our_feature_wrapper .our_feature_cards .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 10px 20px #c7c7c7, -10px -10px 20px #f9f9f9;
+}
+.our_features .our_feature_wrapper .our_feature_cards .card .icon_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  transition: 0.5s all;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #e9effc;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards .card .icon_box .icon {
+  color: white;
+  font-size: 3rem;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards .card .icon_box:hover {
+  transform: translateY(-5px);
+
+  background: #175cff;
+  box-shadow: 10px 10px 20px #c7c7c7, -10px -10px 20px #f9f9f9;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards .card img {
+  width: 40px;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards .card h3 {
+  font-size: 2rem;
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards .card p {
+  font-size: 1.7rem;
+  color: #444242;
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+
+}
+
+/* our game features sectin starts here */
+.game_features {
+  background-color: #fffbfb;
+  padding: 40px 0;
+}
+.game_features .game_feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.game_features .game_feature_wrapper .game_feature_heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.game_features .game_feature_wrapper .game_feature_heading .sub_heading {
+  font-size: 3.2rem;
+}
+.game_features .game_feature_wrapper .game_feature_heading h3 {
+  font-size: 3rem;
+  color: #071c4d;
+  margin: 12px 0;
+  font-family: "Roboto", sans-serif;
+}
+.game_features .game_feature_wrapper .game_feature_heading p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #575757;
+  font-family: "Open Sans", sans-serif;
+}
+.game_features .game_feature_wrapper .game_feature_cards {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.game_features .game_feature_wrapper .game_feature_cards .game_card {
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border: 1.2px solid #57575721;
+  transition: 0.5s all;
+  border-radius: 5px;
+}
+
+.game_features .game_feature_wrapper .game_feature_cards .game_card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 10px 10px 20px #c7c7c7, -10px -10px 20px #f9f9f9;
+}
+
+.game_features .game_feature_wrapper .game_feature_cards .game_card .img {
+  padding: 10px;
+  background-color: #e9effc;
+}
+.game_features .game_feature_wrapper .game_feature_cards .game_card img {
+  width: 40px;
+}
+
+.game_features .game_feature_wrapper .game_feature_cards .game_card h3 {
+  font-size: 2rem;
+  margin: 12px 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.game_features .game_feature_wrapper .game_feature_cards .game_card p {
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: 1.7;
+  color: #444222;
+  font-family: "Poppins", sans-serif;
+
+}
+
+/* frontend feature section */
+.frontend_feature_section {
+  background-color: #fffbfb;
+  padding: 30px 0;
+}
+
+.frontend_feature_section .frontend_feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.frontend_feature_section .frontend_feature_wrapper .frontend_feature_content {
+  display: grid;
+  padding: 40px 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.frontend_feature_section
+  .frontend_feature_wrapper
+  .frontend_feature_content
+  .left {
+  display: flex;
+  background-image: url(../../img/shape/dot-big-square.png);
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+
+  background-position: 12px 3px;
+}
+
+.frontend_feature_section
+  .frontend_feature_wrapper
+  .frontend_feature_content
+  .left
+  img {
+  width: 70%;
+}
+
+.frontend_feature_section
+  .frontend_feature_wrapper
+  .frontend_feature_content
+  .right {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.frontend_feature_section
+  .frontend_feature_wrapper
+  .frontend_feature_content
+  .right
+  p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #575757;
+  font-weight: 0;
+  
+  margin-left: -18px;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.frontend_feature_section
+  .frontend_feature_wrapper
+  .frontend_feature_content
+  .right
+  ul
+  li {
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 1.6rem;
+  margin: 10px 0;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+.our_services {
+  font-size: 2.5rem;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  margin-left: -18px;
+  margin-top: 20px;
+  color: #575757;
+}
+
+.frontend_feature_section .frontend_feature_wrapper .frontend_feature_heading {
+  margin-bottom: 20px;
+}
+
+.frontend_feature_section
+  .frontend_feature_wrapper
+  .frontend_feature_heading
+  h2 {
+  font-size: 2.8rem;
+  font-family: "Roboto", sans-serif;
+  color: #071c4d;
+}
+
+/* backend feature section */
+.backend_feature_section {
+  background-color: #fffbfb;
+  padding: 30px 0;
+}
+
+.backend_feature_section .backend_feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.backend_feature_section .backend_feature_wrapper .backend_feature_content {
+  display: grid;
+  padding: 40px 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.backend_feature_section
+  .backend_feature_wrapper
+  .backend_feature_content
+  .left {
+  display: flex;
+  background-image: url(../../img/shape/dot-big-square.png);
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+
+  background-position: 12px 3px;
+}
+
+.backend_feature_section
+  .backend_feature_wrapper
+  .backend_feature_content
+  .left
+  img {
+  width: 70%;
+}
+
+.backend_feature_section
+  .backend_feature_wrapper
+  .backend_feature_content
+  .right {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  order: -1;
+}
+
+.backend_feature_section
+  .backend_feature_wrapper
+  .backend_feature_content
+  .right
+  p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #575757;
+  font-weight: 0;
+  margin-left: -18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.backend_feature_section
+  .backend_feature_wrapper
+  .backend_feature_content
+  .right
+  ul
+  li {
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 1.6rem;
+  margin: 10px 0;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.backend_feature_section .backend_feature_wrapper .backend_feature_content .right h2 {
+  font-size: 2.8rem;
+  font-family: "Roboto", sans-serif;
+  color: #071c4d;
+  margin-left: -18px;
+}
+
+/* why choose skywalk section css */
+.why_skywalk_feature {
+  background-color: #0b163f;
+}
+.why_skywalk_feature .skywalk_container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.why_skywalk_feature .skywalk_container .why_skywalk_heading_wrapper {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.why_skywalk_feature .skywalk_container .why_skywalk_heading_wrapper h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.why_skywalk_feature .skywalk_container .sky_walk_content_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 50px 0;
+  /* border: 2px solid; */
+  background-image: url("../../img/shape/blob.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.why_skywalk_feature
+  .skywalk_container
+  .sky_walk_content_wrapper
+  .left_content {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.why_skywalk_feature
+  .skywalk_container
+  .sky_walk_content_wrapper
+  .left_content
+  .content_box {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  width: 250px;
+  transition: 0.5s all;
+}
+/* hover effect */
+.why_skywalk_feature
+  .skywalk_container
+  .sky_walk_content_wrapper
+  .left_content
+  .content_box:hover,
+.why_skywalk_feature
+  .skywalk_container
+  .sky_walk_content_wrapper
+  .right_content
+  .content_box:hover {
+  transform: translateY(-5px);
+
+  box-shadow: -1px 2px 10px #c7c7c7, -10px -10px 20px #0d0101;
+}
+.why_skywalk_feature
+  .skywalk_container
+  .sky_walk_content_wrapper
+  .right_content
+  .content_box:hover {
+  transform: translateY(-5px);
+}
+
+.why_skywalk_feature
+  .skywalk_container
+  .sky_walk_content_wrapper
+  .left_content
+  .content_box
+  h5 {
+  font-size: 1.8rem;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.why_skywalk_feature
+  .skywalk_container
+  .sky_walk_content_wrapper
+  .left_content
+  .content_box
+  p {
+  font-size: 1.6rem;
+
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.why_skywalk_feature
+  .skywalk_container
+  .sky_walk_content_wrapper
+  .right_content {
+  display: flex;
+  width: 50%;
+  gap: 30px;
+}
+.why_skywalk_feature
+  .skywalk_container
+  .sky_walk_content_wrapper
+  .right_content
+  .content_box {
+  width: 250px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  transition: 0.5s all;
+}
+.why_skywalk_feature
+  .skywalk_container
+  .sky_walk_content_wrapper
+  .right_content
+  .content_box
+  h5 {
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.why_skywalk_feature
+  .skywalk_container
+  .sky_walk_content_wrapper
+  .right_content
+  .content_box
+  p {
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* media querries */
+@media (max-width: 1132px) {
+  html {
+    font-size: 9px;
+  }
+
+  .game_features {
+    background-image: none;
+  }
+
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .game_feature_section .game_feature_wrapper .game_feature_content {
+    grid-template-columns: 1fr;
+  }
+  .game_features .game_feature_wrapper .game_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .frontend_feature_section
+    .frontend_feature_wrapper
+    .frontend_feature_content {
+    grid-template-columns: 1fr;
+  }
+  .frontend_feature_section
+    .frontend_feature_wrapper
+    .frontend_feature_content
+    .right {
+    order: -1;
+  }
+  .frontend_feature_section
+    .frontend_feature_wrapper
+    .frontend_feature_content
+    .left {
+    background-image: none;
+  }
+  .backend_feature_section .backend_feature_wrapper .backend_feature_content {
+    grid-template-columns: 1fr;
+  }
+  .backend_feature_section
+    .backend_feature_wrapper
+    .backend_feature_content
+    .right {
+    order: -1;
+  }
+  .backend_feature_section
+    .backend_feature_wrapper
+    .backend_feature_content
+    .left {
+    background-image: none;
+  }
+
+  .why_skywalk_feature
+    .skywalk_container
+    .sky_walk_content_wrapper
+    .right_content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* border: 1px solid white; */
+  }
+}
+
+@media (max-width: 1094px) {
+  html {
+    font-size: 8px;
+  }
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 958px) {
+  .why_skywalk_feature
+    .skywalk_container
+    .sky_walk_content_wrapper
+    .right_content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 868px) {
+  .page_header_container .page_header .main_heading {
+    width: 100%;
+    position: relative;
+   
+  }
+}
+@media (max-width: 768px) {
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .game_features .game_feature_wrapper .game_feature_cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .why_skywalk_feature
+    .skywalk_container
+    .sky_walk_content_wrapper
+    .left_content {
+    width: 50%;
+  }
+}
+@media (max-width: 595px) {
+  .why_skywalk_feature
+    .skywalk_container
+    .sky_walk_content_wrapper
+    .left_content {
+    width: 100%;
+    align-items: center;
+  }
+  .why_skywalk_feature
+    .skywalk_container
+    .sky_walk_content_wrapper
+    .right_content
+    .content_box,
+  .why_skywalk_feature
+    .skywalk_container
+    .sky_walk_content_wrapper
+    .left_content
+    .content_box {
+    width: 100%;
+  }
+
+  .why_skywalk_feature
+    .skywalk_container
+    .sky_walk_content_wrapper
+    .right_content {
+    width: 100%;
+  }
+  .why_skywalk_feature .skywalk_container .sky_walk_content_wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .why_skywalk_feature .skywalk_container .sky_walk_content_wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 415px) {
+  .backend_feature_section
+    .backend_feature_wrapper
+    .backend_feature_content
+    .right
+    ul
+    li,
+  .frontend_feature_section
+    .frontend_feature_wrapper
+    .frontend_feature_content
+    .right
+    ul
+    li {
+    list-style-position: outside;
+  }
+}

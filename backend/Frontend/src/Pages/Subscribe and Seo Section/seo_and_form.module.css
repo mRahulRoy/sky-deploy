@@ -1,0 +1,301 @@
+.subscribe_letter_section {
+  background-color: #0b163f;
+  position: relative;
+  overflow: hidden;
+}
+.subscribe_letter_section .subscribe_letter_wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.subscribe_letter_section .vacant {
+  height: 100px;
+  background-color: #071c4d;
+  width: 20%;
+  position: absolute;
+  bottom: -40px;
+  left: 104px;
+  border-radius: 5px;
+}
+
+.subscribe_letter_section .subscribe_letter_wrapper .main_content {
+  display: grid;
+  padding: 30px 0;
+  column-gap: 100px;
+  grid-template-columns: 1fr 40%;
+}
+.subscribe_letter_section .subscribe_letter_wrapper .main_content .seo_cont {
+  padding: 20px;
+}
+.subscribe_letter_section .subscribe_letter_wrapper .main_content .seo_cont h2 {
+  font-size: 3.5rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.subscribe_letter_section .subscribe_letter_wrapper .main_content .seo_cont p {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  line-height: 1.7;
+  color: #d6d5e1;
+  font-family: "Open Sans", sans-serif;
+}
+.subscribe_letter_section .subscribe_letter_wrapper .main_content .seo_cont hr {
+  color: #d6d5e1bd;
+  background-color: #d6d5e1d3;
+  border: 1px solid;
+  opacity: 0.1;
+}
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont
+  h2 {
+  text-align: center;
+  color: black;
+  font-size: 2.3rem;
+  font-weight: 900;
+  font-family: "Open Sans", sans-serif;
+}
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont
+  .form
+  .inputs_cont .main_inputs_box {
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont
+  .form
+  .inputs_cont
+  .input
+  input[type="text"]:focus {
+  border: 2px solid #175cff;
+}
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont
+  .form
+  .inputs_cont
+  .input
+  select:focus {
+  border: 2px solid #175cff;
+}
+
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont
+  .form
+  .inputs_cont
+  .input
+  input,
+select {
+  padding-left: 10px;
+  margin: 10px;
+  border: 2px solid #d6d5e1;
+  height: 50px;
+  width: 90%;
+  border-radius: 5px;
+  outline: none;
+}
+
+.opt {
+  width: inherit;
+}
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont
+  .form
+  .inputs_cont
+  .input_textarea {
+  width: 200%;
+  text-align: center;
+}
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont
+  .form
+  .inputs_cont
+  .input_textarea
+  textarea:focus {
+  border: 2px solid #175cff;
+}
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont
+  .form
+  .inputs_cont
+  .input {
+  text-align: center;
+}
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont
+  .form
+  .inputs_cont
+  .input_textarea
+  textarea {
+  padding: 20px;
+  width: 93%;
+  outline: none;
+  border: 2px solid #d6d5e1;
+  resize: none;
+  border-radius: 5px;
+}
+
+
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont
+  .form
+  .inputs_cont
+  .form_button {
+    text-align: center;
+}
+
+
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont
+  .form
+  .inputs_cont
+  .form_button
+  button {
+  width: 70%;
+  background-color: black;
+  color: white;
+  height: 45px;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.5s all;
+  border-radius: none;
+  font-family: "Open Sans", sans-serif;
+}
+.subscribe_letter_section
+  .subscribe_letter_wrapper
+  .main_content
+  .subscribe_form_cont
+  .form
+  .form_button
+  button:hover {
+  background-color: #175cff;
+  border: none;
+}
+
+/* media querries */
+@media (max-width: 996px) {
+  .subscribe_letter_section .subscribe_letter_wrapper .soo_cont {
+    width: 90%;
+    margin-top: 12px;
+  }
+  .subscribe_letter_section .subscribe_letter_wrapper .main_content {
+    grid-template-columns: 1fr;
+  }
+  .subscribe_letter_section
+    .subscribe_letter_wrapper
+    .main_content
+    .subscribe_form_cont {
+    order: -1;
+    background: none;
+  }
+  .subscribe_letter_section
+    .subscribe_letter_wrapper
+    .main_content
+    .subscribe_form_cont
+    .form {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+  }
+}
+
+@media (max-width: 735px) {
+  .subscribe_letter_section .vacant {
+    display: none;
+  }
+  .subscribe_letter_section
+    .subscribe_letter_wrapper
+    .main_content
+    .subscribe_form_cont
+    .form
+    .inputs_cont {
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe_letter_section
+    .subscribe_letter_wrapper
+    .main_content
+    .subscribe_form_cont {
+    padding: 0;
+    width: 100%;
+  }
+  .subscribe_letter_section .subscribe_letter_wrapper {
+    width: 100%;
+  }
+
+  .subscribe_letter_section
+    .subscribe_letter_wrapper
+    .main_content
+    .subscribe_form_cont
+    .form
+    .inputs_cont
+    .input
+    input,
+  select {
+    width: inherit;
+    margin: 7px 0;
+  }
+  .subscribe_letter_section
+    .subscribe_letter_wrapper
+    .main_content
+    .subscribe_form_cont
+    .form
+    .inputs_cont
+    .input {
+    width: 100%;
+  }
+
+  .subscribe_letter_section
+    .subscribe_letter_wrapper
+    .main_content
+    .subscribe_form_cont
+    .form
+    .inputs_cont
+    .input_textarea {
+    width: 100%;
+    text-align: center;
+  }
+  .subscribe_letter_section
+    .subscribe_letter_wrapper
+    .main_content
+    .subscribe_form_cont
+    .form
+    .inputs_cont
+    .input_textarea
+    textarea {
+    width: 100%;
+  }
+}
+

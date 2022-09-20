@@ -1,0 +1,432 @@
+/* page header starts */
+.page_header_container {
+  background-color: #0b163f;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.page_header_container {
+  background-image: url("../../img/banner.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page_header_container .page_header {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page_header_container .page_header .main_heading {
+  width: 60%;
+}
+
+.page_header_container .page_header .main_heading h1 {
+  font-size: 3.1rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.page_header_container .page_header .main_heading p.lead {
+  font-size: 1.7rem;
+  color: #d6d5e1;
+  text-align: justify;
+  line-height: 1.8;
+  font-family: "Poppins", sans-serif;
+}
+
+/* page header ends here */
+
+/* feature section starts here */
+.feature_section {
+  background-color: #fffbfb;
+  padding: 30px 0;
+}
+
+.feature_section .feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.feature_section .feature_wrapper .feature_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.feature_section .feature_wrapper .feature_content .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../img/shape/dot-big-square.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.feature_section .feature_wrapper .feature_content .left img {
+  width: 80%;
+}
+
+.feature_section .feature_wrapper .feature_content .right {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature_section .feature_wrapper .feature_content .right p {
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+.feature_section .feature_wrapper .feature_content .right ul li {
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 1.6rem;
+  margin: 15px 0;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+.our_services {
+  font-size: 1.5rem;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+
+  margin-top: 20px;
+  color: #575757;
+}
+
+.feature_section .feature_wrapper .feature_heading {
+  margin-bottom: 50px;
+}
+
+.feature_section .feature_wrapper .feature_heading h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: #0b163f;
+}
+
+/* industries we work with starts here */
+.industries_work_section {
+  padding: 30px 0;
+  background-repeat: no-repeat;
+  background-color: #fcf5f5;
+}
+
+.industries_work_section .industry_work_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.industries_work_section .industry_work_wrapper .industry_heading {
+  margin: 10px 0 30px 0;
+}
+
+.industries_work_section .industry_work_wrapper .industry_heading h3 {
+  font-size: 2.8rem;
+  color: #071c4d;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.industries_work_section .industry_work_wrapper .industry_heading p {
+  font-size: 1.6rem;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+.industries_work_section .industry_work_wrapper .deals_with_cont {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+  padding: 20px 0;
+}
+
+.industries_work_section .industry_work_wrapper .deals_with_cont .field {
+  width: 150px;
+  transition: 0.5s all;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 120px;
+  background-color: white;
+  border-radius: 7px;
+  font-family: "Roboto", sans-serif;
+  color: #2a3c66;
+}
+.industries_work_section .industry_work_wrapper .deals_with_cont .field:hover {
+  transform: translateY(-5px);
+  box-shadow: rgb(13 21 55 / 6%) 0 5px 50px;
+}
+
+.industries_work_section .industry_work_wrapper .deals_with_cont .field h6 {
+  font-size: 1.5rem;
+}
+
+.industries_work_section .industry_work_wrapper .deals_with_cont .field img {
+  width: 30px;
+}
+
+/* industries we work with ends here */
+
+/* second features section starts here */
+.our_features {
+  background-color: #fafafd;
+  padding: 40px 0;
+  background-image: url(../../img/shape/dot-big-square.png);
+  background-repeat: no-repeat;
+  background-position: 32px 504px;
+}
+.our_features .our_feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.our_features .our_feature_wrapper .our_feature_heading {
+  margin-bottom: 50px;
+}
+
+.our_features .our_feature_wrapper .our_feature_heading h3 {
+  font-size: 3rem;
+  color: #071c4d;
+  margin: 12px 0;
+  font-family: "Roboto", sans-serif;
+}
+.our_features .our_feature_wrapper .our_feature_heading p {
+  font-size: 1.8rem;
+  line-height: 1.7;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+.our_features .our_feature_wrapper .our_feature_heading ul {
+  margin: 10px 0 0 6px;
+}
+.our_features .our_feature_wrapper .our_feature_heading li {
+  font-size: 1.7rem;
+  list-style-type: disc;
+  list-style-position: outside;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+  color: #575757;
+}
+
+.our_features .our_feature_wrapper .our_feature_heading ul li span {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  color: #575757;
+  margin-right: 5px;
+  font-weight: bolder;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards {
+  display: grid;
+  grid-gap: 25px;
+
+  grid-template-columns: repeat(3, 1fr);
+}
+.our_features .our_feature_wrapper .our_feature_cards .card {
+  width: 100%;
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 6px;
+  transition: 0.3s all;
+}
+.our_features .our_feature_wrapper .our_feature_cards .card:hover {
+  transform: translateY(-5px);
+  box-shadow: rgb(13 21 55 / 6%) 0 5px 50px;
+}
+.our_features .our_feature_wrapper .our_feature_cards .card > div {
+  -webkit-box-shadow: -1px -1px 8px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 8px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 8px -4px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+}
+.our_features .our_feature_wrapper .our_feature_cards .card .img {
+  padding: 10px;
+}
+.our_features .our_feature_wrapper .our_feature_cards .card img {
+  width: 40px;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards .card h3 {
+  font-size: 2rem;
+  margin: 12px 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards .card p {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+/* third web feature section */
+/* feature section starts here */
+.web_feature_section {
+  background-color: #fffbfb;
+  padding: 30px 0;
+}
+
+.web_feature_section .web_feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.web_feature_section .web_feature_wrapper .web_feature_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.web_feature_section .web_feature_wrapper .web_feature_content .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 1;
+}
+
+.web_feature_section .web_feature_wrapper .web_feature_content .left img {
+  width: 70%;
+}
+
+.web_feature_section .web_feature_wrapper .web_feature_content .right {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.web_feature_section .web_feature_wrapper .web_feature_content .right p {
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #575757;
+  font-weight: 0;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
+
+.web_feature_section .web_feature_wrapper .web_feature_content .right ul li {
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 1.6rem;
+  margin: 15px 0;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+.our_services {
+  font-size: 1.5rem;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+
+  margin-top: 20px;
+  color: #575757;
+}
+
+.web_feature_section .web_feature_wrapper .web_feature_heading h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: #071c4d;
+}
+
+/* --------------------media querries-------------- */
+
+@media (max-width: 1132px) {
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .web_feature_section .web_feature_wrapper .web_feature_content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 995px) {
+  .page_header_container .page_header .plane_div {
+    display: none;
+  }
+
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .feature_section .feature_wrapper .feature_content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .feature_section .feature_wrapper .feature_heading {
+    margin-bottom: 10px;
+  }
+
+  .feature_section .feature_wrapper .feature_content .right {
+    order: -1;
+  }
+}
+
+@media (max-width: 858px) {
+  .page_header_container .page_header .main_heading {
+    width: 100%;
+    position: relative;
+
+  }
+}
+
+/* Third feature section  */
+
+@media (max-width: 714px) {
+  .our_features {
+    background-image: none;
+  }
+  .feature_section .feature_wrapper .feature_content .left {
+    background-image: none;
+    height: fit-content;
+  }
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+  }
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 602px) {
+  .feature_section .feature_wrapper .feature_content .left {
+    background-image: none;
+    height: fit-content;
+  }
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(2, 1fr);
+
+    justify-items: center;
+    grid-row-gap: 30px;
+  }
+}
+@media (max-width: 368px) {
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(1, 1fr);
+
+    justify-items: center;
+    grid-row-gap: 30px;
+  }
+  .industries_work_section .industry_work_wrapper .deals_with_cont .field {
+    width: 205px;
+    height: 173px;
+  }
+}

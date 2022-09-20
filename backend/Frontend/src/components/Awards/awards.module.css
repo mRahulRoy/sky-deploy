@@ -1,0 +1,127 @@
+
+:root {
+  --bs-primary-soft: #ceddff;
+  --bs-primary-light: #3a75ff;
+  --bs-primary: #175cff;
+  --bs-primary-dark: #0048f0;
+
+  --bs-secondary-light: #dcdcdf;
+  --bs-secondary: #c0c0c5;
+  --bs-secondary-dark: #d6d5e1;
+
+  --bs-success-soft: #def4ed;
+  --bs-success-light: #82d6bc;
+  --bs-success: #5cc9a7;
+  --bs-success-dark: #3cb690;
+
+  --bs-info-soft: #dcf0ff;
+  --bs-info-light: #83cbff;
+  --bs-info: #50b5ff;
+  --bs-info-dark: #1d9fff;
+
+  --bs-warning-soft: #fff2d8;
+  --bs-warning-light: #ffcf70;
+  --bs-warning: #ffb116;
+  --bs-warning-dark: #fba700;
+
+  --bs-danger-soft: #fcdde1;
+  --bs-danger-light: #f68692;
+  --bs-danger: #f25767;
+  --bs-danger-dark: #ee283c;
+
+  --bs-dark-soft: #c9c7f7;
+  --bs-dark-light: #071c4d;
+  --bs-dark: #0b163f;
+  --bs-dark-dark: #010e2b;
+
+  --body-color: #575757;
+  --bs-light: #f7f9fc;
+  --bs-font-sans-serif: "Open Sans", sans-serif;
+  --bs-font-monospace: "Poppins", sans-serif;
+}
+
+.award_container {
+  background-color: #fffbfb;
+}
+.award_container .award_section {
+  width: 90%;
+  margin: 0 auto;
+  padding: 35px 0;
+  margin-bottom: 50px;
+}
+
+.award_container .award_section .main_heading {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.award_container .award_section .main_heading h2 {
+  font-size: 3rem;
+  color: #071c4d;
+  
+}
+
+.award_container .award_section .award_item_cont {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+}
+.award_container .award_section .award_item_cont .award_item {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 3px;
+  background-color: rgb(255 255 255);
+  transition: transform 0.5s;
+  box-shadow: 10px 10px 20px #c7c7c7, -10px -10px 20px #f9f9f9;
+}
+.award_container .award_section .award_item_cont .award_item h6 {
+  font-size: 1.8rem;
+  margin: 12px 0;
+  color: #071c4d;
+  font-family: "Open Sans", sans-serif;
+}
+
+.award_container .award_section .award_item_cont .award_item:hover {
+  transform: translateY(-8px);
+}
+
+/* media querry */
+@media (max-width: 1228px) {
+  .award_container .award_section .award_item_cont {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
+@media (max-width: 944px) {
+  .award_container .award_section .award_item_cont {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+}
+@media (max-width: 744px) {
+  .award_container .award_section .award_item_cont {
+    margin-top: 60px;
+  }
+
+}
+
+@media (max-width: 642px) {
+  .award_container .award_section .award_item_cont {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .award_container .award_section .main_heading h2 {
+   font-size: 2.7rem;
+   line-height: 1.7;
+  }
+
+}

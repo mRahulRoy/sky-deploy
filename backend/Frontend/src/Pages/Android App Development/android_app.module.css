@@ -1,0 +1,604 @@
+/* page header starts */
+.page_header_container {
+  background-color: #0b163f;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.page_header_container {
+  background-image: url("../../img/blur-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ position: relative;
+  background-position: center;
+}
+
+.page_header_container .page_header {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page_header_container .page_header .main_heading {
+  width: 70%;
+}
+
+.page_header_container .page_header .main_heading h1 {
+  font-size: 3.1rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.page_header_container .page_header .main_heading p.lead {
+  font-size: 1.7rem;
+  color: #d6d5e1;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+}
+
+
+/* top or first feature section */
+.android_feature_section {
+  background-color: #fffbfb;
+  padding: 30px 0;
+}
+
+.android_feature_section .android_feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.android_feature_section .android_feature_wrapper .android_feature_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.android_feature_section
+  .android_feature_wrapper
+  .android_feature_content
+  .left {
+  display: flex;
+  /* background-image: url(../../img/shape/dot-big-square.png); */
+  align-items: center;
+  justify-content: center;
+  /* background-repeat: no-repeat; */
+
+  /* background-position: 12px 3px; */
+}
+
+.android_feature_section
+  .android_feature_wrapper
+  .android_feature_content
+  .left
+  img {
+  width: 70%;
+}
+
+.android_feature_section
+  .android_feature_wrapper
+  .android_feature_content
+  .right {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.android_feature_section
+  .android_feature_wrapper
+  .android_feature_content
+  .right
+  p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #575757;
+  margin-left: -18px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
+
+.android_feature_section
+  .android_feature_wrapper
+  .android_feature_content
+  .right
+  ul
+  li {
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 1.6rem;
+  margin: 10px 0;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+.our_services {
+  font-size: 1.5rem;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  margin-left: -18px;
+  margin-top: 20px;
+  color: #575757;
+}
+
+.android_feature_section .android_feature_wrapper .android_feature_heading h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: #071c4d;
+}
+
+/* iphone testimonial */
+
+.android_testimonial_section {
+  padding: 50px 0;
+  background-color: #0b163f;
+}
+
+.android_testimonial_section .android_testimonial_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .android_testimonial_heading
+  h3 {
+  text-align: center;
+  color: #ffb116;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .android_testimonial_heading
+  h2 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 7px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .android_testimonial_heading
+  p {
+  text-align: center;
+  color: white;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+    padding: 0 100px;
+  font-size: 1.4rem;
+}
+
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .integrations_wrapper {
+  margin: 50px 0;
+  padding: 30px;
+  /* border: 1px solid white; */
+  color: white;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .integrations_wrapper
+  .integration {
+  border: 1px solid white;
+  padding: 20px;
+  width: 330px;
+  border-radius: 7px;
+  transition: 0.7s all;
+  box-shadow: 27px 27px 52px #09195a, -27px -27px 52px #0e1d53;
+  background: #0b163f;
+}
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .integrations_wrapper
+  .integration:hover {
+  transform: translateY(-5px);
+  box-shadow: 1px 2px 8px #fcfcfc5e;
+}
+
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .tool_stack {
+  text-align: center;
+  width: 100%;
+}
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .tool_stack
+  .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .tool_stack
+  .link
+  span {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  text-align: center;
+  background: #0b163f;
+  box-shadow: 0px 0 0px #050a1c, 1px -1px 4px #112262;
+  animation: spin 5s infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .tool_stack
+  span
+  img {
+  width: 50%;
+  margin: 4px;
+}
+
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .content {
+  margin: 12px 0;
+  text-align: center;
+  padding: 12px;
+}
+
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .content
+  h2 {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: blue;
+}
+
+.android_testimonial_section
+  .android_testimonial_wrapper
+  .integrations_wrapper
+  .integration
+  .content
+  p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  font-family: "Open Sans", sans-serif;
+  color: #fafafd;
+  margin-top: 12px;
+}
+
+/* industries we work with starts here */
+.industries_work_section {
+  padding: 30px 0;
+  background-repeat: no-repeat;
+  background-color: #fcf5f5;
+}
+
+.industries_work_section .industry_work_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.industries_work_section .industry_work_wrapper .industry_heading {
+  margin: 10px 0 30px 0;
+}
+
+.industries_work_section .industry_work_wrapper .industry_heading h3 {
+  font-size: 2.8rem;
+  color: #071c4d;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.industries_work_section .industry_work_wrapper .industry_heading p {
+  font-size: 1.6rem;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+}
+
+.industries_work_section .industry_work_wrapper .deals_with_cont {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+  padding: 20px 0;
+}
+
+.industries_work_section .industry_work_wrapper .deals_with_cont .field {
+  width: 150px;
+  transition: 0.5s all;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 120px;
+  background-color: white;
+  border-radius: 7px;
+  font-family: "Roboto", sans-serif;
+  color: #2a3c66;
+}
+.industries_work_section .industry_work_wrapper .deals_with_cont .field:hover {
+  transform: translateY(-5px);
+  box-shadow: rgb(13 21 55 / 6%) 0 5px 50px;
+}
+
+.industries_work_section .industry_work_wrapper .deals_with_cont .field h6 {
+  font-size: 1.5rem;
+}
+
+.industries_work_section .industry_work_wrapper .deals_with_cont .field img {
+  width: 30px;
+}
+
+/* some apps made by skywalk */
+
+.apps_container {
+  padding: 25px 0;
+  background-color: #fffbfb;
+}
+.apps_container .apps_content_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.apps_container .apps_content_wrapper .heading {
+  height: 160px;
+  padding: 0px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.apps_container .apps_content_wrapper .heading h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #071c4d;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+.apps_container .apps_content_wrapper .heading p {
+  font-size: 1.7rem;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #4a5a80;
+  font-weight: 900;
+}
+.apps_container .apps_content_wrapper .apps_content_cont {
+  display: flex;
+}
+.apps_container .apps_content_wrapper .apps_content_cont .left_cont {
+  width: 50%;
+  /* border: 2px solid rgb(49, 22, 225); */
+}
+.apps_container .apps_content_wrapper .apps_content_cont .right_cont {
+  width: 50%;
+  /* border: 2px solid yellow; */
+}
+.apps_container .apps_content_wrapper .apps_content_cont .right_cont {
+  display: flex;
+  gap: 20px;
+  padding-top: 40px;
+}
+.apps_container
+  .apps_content_wrapper
+  .apps_content_cont
+  .right_cont
+  .tree_icon_cont {
+  display: flex;
+  width: 500px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e4d4d4;
+}
+.apps_container
+  .apps_content_wrapper
+  .apps_content_cont
+  .right_cont
+  .tree_icon_cont
+  .icon {
+  font-size: 2.9rem;
+  color: #e4d4d4;
+}
+.apps_container
+  .apps_content_wrapper
+  .apps_content_cont
+  .right_cont
+  .tree_icon_cont
+  .icon:hover {
+  color: #0d6efd;
+}
+.apps_container
+  .apps_content_wrapper
+  .apps_content_cont
+  .right_cont
+  .marketing_content
+  h2 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  color: #071c4d;
+  margin-left: -18px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+.apps_container
+  .apps_content_wrapper
+  .apps_content_cont
+  .right_cont
+  .marketing_content
+  ul > li strong{
+    margin-right: 6px;
+    color: #575757;
+
+}
+.apps_container
+  .apps_content_wrapper
+  .apps_content_cont
+  .right_cont
+  .marketing_content
+  ul > li{
+    list-style-type: disc;
+    font-size: 1.7rem;
+    color: #575757;
+    margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+
+
+.apps_container
+  .apps_content_wrapper
+  .apps_content_cont
+  .right_cont
+  .marketing_content
+  p {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  color: #7f7f7f;
+}
+.apps_container .apps_content_wrapper .apps_content_cont .left_cont img {
+  width: 100%;
+}
+
+/* media querries */
+
+/* -------------media querries--------------- */
+
+@media (max-width: 1132px) {
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .android_feature_section .android_feature_wrapper .android_feature_content {
+    grid-template-columns: 1fr;
+  }
+  .android_feature_section
+    .android_feature_wrapper
+    .android_feature_content
+    .right {
+    order: -1;
+  }
+}
+
+@media (max-width: 868px) {
+  .page_header_container .page_header .main_heading {
+    width: 100%;
+    position: relative;
+   
+  }
+}
+@media (max-width: 933px) {
+  .apps_container .apps_content_wrapper .apps_content_cont {
+    flex-direction: column-reverse;
+  }
+  .apps_container .apps_content_wrapper .apps_content_cont .left_cont {
+    width: 100%;
+  }
+  .apps_container .apps_content_wrapper .apps_content_cont .right_cont {
+    width: 100%;
+  }
+}
+
+@media (max-width: 995px) {
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 888px) {
+  .android_testimonial_section
+    .android_testimonial_wrapper
+    .integrations_wrapper {
+    grid-template-columns: 1fr;
+  }
+  .android_testimonial_section
+    .android_testimonial_wrapper
+    .integrations_wrapper
+    .integration {
+    width: 100%;
+  }
+}
+
+@media (max-width: 714px) {
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+  }
+  .apps_container .apps_content_wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 862px) {
+  .page_header_container .page_header .main_heading h1 {
+    font-size: 3.1rem;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 17px;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 602px) {
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(2, 1fr);
+
+    justify-items: center;
+    grid-row-gap: 30px;
+  }
+}
+@media (max-width: 368px) {
+  .industries_work_section .industry_work_wrapper .deals_with_cont {
+    grid-template-columns: repeat(1, 1fr);
+
+    justify-items: center;
+    grid-row-gap: 30px;
+  }
+  .industries_work_section .industry_work_wrapper .deals_with_cont .field {
+    width: 205px;
+    height: 173px;
+  }
+}

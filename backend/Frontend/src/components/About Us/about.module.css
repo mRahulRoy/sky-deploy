@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;500&display=swap");
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+li {
+  list-style: none;
+}
+.about_container {
+  /* background: linear-gradient(90deg, #021048, #1e38a3) !important; */
+  background-image: url("../../img/office.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.about_container .about_content_wrapper {
+  width: 90%;
+  margin: 0 auto;
+
+  padding: 40px;
+  display: flex;
+  gap: 50px;
+}
+.about_container .about_content_wrapper .left_content {
+  width: 50%;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about_container
+  .about_content_wrapper
+  .left_content
+  .experience_section
+  .checklist_cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.about_container .about_content_wrapper .left_content .experience_section h4 {
+  color:#ffffff;
+
+  display: flex;
+  align-items: center;
+}
+.about_container
+  .about_content_wrapper
+  .left_content
+  .experience_section
+  .icon {
+  margin-left: 10px;
+  font-size: 3rem;
+}
+.about_container
+  .about_content_wrapper
+  .left_content
+  .experience_section
+  .checklist_cont
+  li {
+  color:#ffffff;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.about_container
+  .about_content_wrapper
+  .left_content
+  .experience_section
+  .checklist_cont
+  li
+  .check_icon {
+    color:#c6c6d1;
+
+  font-size: 2rem;
+  margin-right: 5px;
+}
+.about_container
+  .about_content_wrapper
+  .left_content
+  .experience_section
+  .checklist_cont
+  h4 {
+  font-size: 1.6rem;
+}
+.about_container .about_content_wrapper .left_content h2 {
+  color: white;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+.about_container .about_content_wrapper .left_content h4 {
+  color: #d6d5e1;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+}
+.about_container .about_content_wrapper .left_content p {
+  font-size: 1.6rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  text-align: justify;
+}
+.about_container .about_content_wrapper .right_content {
+  width: 50%;
+}
+.about_container .about_content_wrapper .right_content img {
+  width: 100%;
+  /* background-color: blue; */
+}
+
+/* media querry */
+
+@media (max-width: 900px) {
+  .about_container .about_content_wrapper {
+    flex-direction: column;
+  }
+  .about_container .about_content_wrapper .left_content {
+    width: 100%;
+  }
+  .about_container .about_content_wrapper .right_content {
+    width: 100%;
+  }
+  .about_container .about_content_wrapper .right_content img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 607px) {
+  .about_container
+    .about_content_wrapper
+    .left_content
+    .experience_section
+    .checklist_cont {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .about_container .about_content_wrapper {
+    width: 100%;
+    padding: 25px 20px ;
+
+  }
+
+  .about_container .about_content_wrapper .left_content {
+    width: 100%;
+ 
+  }
+}

@@ -1,0 +1,188 @@
+
+
+.banner_container {
+  /* background: linear-gradient(90deg, #021048, #1e38a3) !important; */
+  background-image: url("../../img/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+ background-size: cover;
+  padding-top: 35px;
+  padding-bottom: 20px
+}
+.banner_container .banner_section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: -0.4rem;
+}
+.banner_container .left_cont {
+  width: 50%;
+}
+.banner_container .left_cont .content h2 {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+.banner_container .left_cont .content p {
+  font-size: 2rem;
+  color: white;
+  line-height: 1.7;
+  text-align: justify;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.banner_container .right_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid whitesmoke; */
+  width: 50%;
+}
+.banner_container .right_cont img {
+  width: 80%;
+  animation: move 5s linear infinite alternate-reverse;
+}
+
+
+/* Animation of Person sitting on cloud */
+@keyframes move {
+  0%{
+   
+      transform: translateX(-6px);
+      transform: rotate(2deg);
+    }
+  
+    100%{
+      transform: translateX(6px);
+      transform: rotate(-2deg);
+ 
+
+  }
+}
+
+.banner_container .banner_section .left_cont .demo_cont {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  /* border: 1px solid; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.banner_container .banner_section .left_cont .demo_cont .playbox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner_container .banner_section .left_cont .demo_cont .playbox span {
+  font-size: 3rem;
+  color: white;
+  /* border: 1px solid; */
+  display: inline-block;
+  display: flex;
+}
+.banner_container .banner_section .left_cont .demo_cont p {
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+  /* border: 1px solid wheat; */
+  font-family: "poppins";
+  font-smooth: 2rem;
+}
+.banner_container .banner_section .left_cont .demo_cont .link{
+  width: 40%;
+  /* border: 2px solid ; */
+}
+.banner_container .banner_section .left_cont .demo_cont .link button {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1.9rem;
+  cursor: pointer;
+  background-color: #0048f0;
+}
+
+/* media querry */
+@media (max-width: 982px) {
+  .banner_container .banner_section {
+    flex-direction: column;
+  }
+  .banner_container .banner_section .left_cont .content h2 {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  .banner_container .banner_section .left_cont {
+    width: 100%;
+  }
+  .banner_container .banner_section .right_cont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .banner_container .banner_section .right_cont img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 707px) {
+  .banner_container .banner_section {
+    flex-direction: column;
+    width: 75%;
+  }
+  .banner_container .banner_section .left_cont .content h2 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .banner_container .banner_section .left_cont {
+    /* width: 90%; */
+    justify-items: center;
+    align-items: center;
+  }
+  .banner_container .banner_section .right_cont {
+    justify-content: center;
+    align-items: center;
+  }
+  .banner_container .banner_section .right_cont img {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 682px) {
+  .banner_container .left_cont .content p {
+    font-size: 2rem;
+    text-align: justify;
+  }
+  .banner_container .banner_section .left_cont .demo_cont .playbox {
+    width:100%;
+    height: 50px;
+    font-size: 4.5rem;
+  }
+  .banner_container .banner_section .left_cont .demo_cont button {
+    font-size: 1.5rem;
+    height: 45px;
+    width: 200px;
+  }
+  .banner_container .banner_section {
+    width: 100%;
+    padding: 25px 20px;
+  }  
+  .banner_container .banner_section .left_cont .demo_cont {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .banner_container .banner_section .left_cont .demo_cont {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

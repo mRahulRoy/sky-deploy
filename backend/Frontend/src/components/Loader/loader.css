@@ -1,0 +1,38 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper .animation-cont{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+}
+.wrapper .animation-cont .dash{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: .4s all linear;
+    position: relative;
+}
+.wrapper .animation-cont .dash .move{
+    width: 30px;
+    height: 4px;
+    background-color: #1e38a3;
+    animation: example .44s infinite alternate linear;
+    position: absolute;
+
+}
+
+
+@keyframes example {
+    0%   {left:0%; width: 5%;}
+    100% {left:100% ; width: 10%}
+  }

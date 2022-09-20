@@ -1,0 +1,443 @@
+/* page header starts */
+.page_header_container {
+  background-color: #0b163f;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.page_header_container {
+  background-image: url("../../img/blur-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ position: relative;
+  background-position: center;
+}
+
+.page_header_container .page_header {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page_header_container .page_header .main_heading {
+  width: 70%;
+}
+
+.page_header_container .page_header .main_heading h1 {
+  font-size: 3.1rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.page_header_container .page_header .main_heading p.lead {
+  font-size: 1.6rem;
+  color: #d6d5e1;
+  line-height: 1.7;
+  text-align: justify;
+  font-family:  'Poppins', sans-serif;
+
+}
+
+/* top or first feature section */
+.content_writing_feature_section {
+  background-color: #fffbfb;
+  padding: 30px 0;
+}
+
+.content_writing_feature_section .content_writing_feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content_writing_feature_section
+  .content_writing_feature_wrapper
+  .content_writing_feature_cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content_writing_feature_section
+  .content_writing_feature_wrapper
+  .content_writing_feature_cont
+  .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_writing_feature_section
+  .content_writing_feature_wrapper
+  .content_writing_feature_cont
+  .left
+  img {
+  width: 70%;
+}
+
+.content_writing_feature_section
+  .content_writing_feature_wrapper
+  .content_writing_feature_cont
+  .right {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_writing_feature_section
+  .content_writing_feature_wrapper
+  .content_writing_feature_cont
+  .right
+  ul
+  li {
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 1.7rem;
+  margin: 10px 0;
+  text-align: justify;
+
+  color: #575757;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+}
+
+.content_writing_feature_section
+  .content_writing_feature_wrapper
+  .content_writing_feature_cont
+  .right
+  ul
+  li
+  span {
+  color: #575757;
+  font-family: "Roboto", sans-serif;
+}
+
+.content_writing_feature_section
+  .content_writing_feature_wrapper
+  .content_writing_feature_heading {
+  margin-bottom: 20px;
+}
+
+.content_writing_feature_section .content_writing_feature_wrapper h2 {
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: #071c4d;
+  font-weight: 900;
+  margin-left: -18px;
+}
+
+/* third feature section */
+.feature_section {
+  background-color: #fffbfb;
+  padding: 30px 0;
+}
+
+.feature_section .feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.feature_section .feature_wrapper .feature_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.feature_section .feature_wrapper .feature_content .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature_section .feature_wrapper .feature_content .left img {
+  width: 70%;
+}
+
+.feature_section .feature_wrapper .feature_content .right {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  order: -1;
+}
+.feature_section .feature_wrapper .feature_content .right p{
+  font-size: 1.6rem;
+  color: #575757;
+  text-align: justify;
+  margin-left: -18px;
+}
+
+.feature_section .feature_wrapper .feature_content .right ul li {
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 1.6rem;
+  margin: 10px 0;
+  color: #575757;
+  line-height: 1.8;
+  font-family: "Poppins", sans-serif;
+}
+
+.feature_section .feature_wrapper .feature_content .right ul li span {
+  color: #575757;
+  font-family: "Roboto", sans-serif;
+}
+
+.feature_section .feature_wrapper .feature_heading {
+  margin-bottom: 20px;
+}
+
+.feature_section .feature_wrapper .feature_content .right h2 {
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: #071c4d;
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-left: -18px;
+}
+
+/* our game features sectin starts here */
+.game_features {
+  background-color: #fffbfb;
+  padding: 40px 0;
+}
+.game_features .game_feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.game_features .game_feature_wrapper .game_feature_heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.game_features .game_feature_wrapper .game_feature_heading .sub_heading {
+  font-size: 2rem;
+}
+.game_features .game_feature_wrapper .game_feature_heading h3 {
+  font-size: 3rem;
+  color: #071c4d;
+  margin: 12px 0;
+  font-family: "Roboto", sans-serif;
+}
+.game_features .game_feature_wrapper .game_feature_heading p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #575757;
+  padding: 0 105px;
+
+  font-family: "Open Sans", sans-serif;
+}
+.game_features .game_feature_wrapper .game_feature_cards {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.game_features .game_feature_wrapper .game_feature_cards .game_card {
+  padding: 40px;
+  width: 300px;
+  border: 1.2px solid #57575721;
+  transition: 0.5s all;
+  border-radius: 5px;
+}
+
+.game_features .game_feature_wrapper .game_feature_cards .game_card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 10px 10px 20px #c7c7c7, -10px -10px 20px #f9f9f9;
+}
+
+.game_features .game_feature_wrapper .game_feature_cards .game_card .img {
+  padding: 10px;
+  background-color: #e9effc;
+}
+.game_features .game_feature_wrapper .game_feature_cards .game_card img {
+  width: 40px;
+}
+
+.game_features .game_feature_wrapper .game_feature_cards .game_card h3 {
+  font-size: 2rem;
+  margin: 12px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.game_features .game_feature_wrapper .game_feature_cards .game_card ul li {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #575757;
+  list-style: disc;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* our features sectin starts here */
+.our_features {
+  background-color: #fffbfb;
+  padding: 40px 0;
+}
+.our_features .our_feature_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.our_features .our_feature_wrapper .our_feature_heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.our_features .our_feature_wrapper .our_feature_heading h3 {
+  text-align: center;
+  font-size: 3.4rem;
+  color: #071c4d;
+  margin: 12px 0;
+  font-family: "Roboto", sans-serif;
+}
+.our_features .our_feature_wrapper .our_feature_heading p {
+  font-size: 1.7rem;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.our_features .our_feature_wrapper .our_feature_cards .card {
+  padding: 40px;
+  background-color: white;
+  border: 1.2px solid #57575721;
+  transition: 0.5s all;
+  border-radius: 5px;
+}
+.our_features .our_feature_wrapper .our_feature_cards .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 10px 20px #c7c7c7, -10px -10px 20px #f9f9f9;
+}
+.our_features .our_feature_wrapper .our_feature_cards .card .icon_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  transition: 0.5s all;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #e9effc;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards .card .icon_box .icon {
+  color: white;
+  font-size: 3rem;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards .card .icon_box:hover {
+  transform: translateY(-5px);
+
+  background: #175cff;
+  box-shadow: 10px 10px 20px #c7c7c7, -10px -10px 20px #f9f9f9;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards .card img {
+  width: 40px;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards .card h3 {
+  font-size: 2rem;
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.our_features .our_feature_wrapper .our_feature_cards .card p {
+  font-size: 1.7rem;
+  color: #575757;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* media querries */
+@media (max-width: 1132px) {
+  html {
+    font-size: 10px;
+  }
+  .content_writing_feature_section .content_writing_feature_wrapper h2 {
+    padding-left: 20px;
+  }
+  .content_writing_feature_section
+    .content_writing_feature_wrapper
+    .content_writing_feature_cont {
+    grid-template-columns: 1fr;
+  }
+  .content_writing_feature_section
+    .content_writing_feature_wrapper
+    .content_writing_feature_cont
+    .right {
+    order: -1;
+  }
+
+  .feature_section .feature_wrapper .feature_content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 858px) {
+  .page_header_container .page_header .main_heading {
+    width: 100%;
+    position: relative;
+   
+  }
+
+  .content_writing_feature_section .content_writing_feature_wrapper {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 656px) {
+  .feature_section .feature_wrapper {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 626px) {
+  .game_features .game_feature_wrapper .game_feature_cards .game_card {
+    width: 100%;
+  }
+}
+@media (max-width: 1132px) {
+  html {
+    font-size: 9px;
+  }
+
+  .game_features {
+    background-image: none;
+  }
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .game_feature_section .game_feature_wrapper .game_feature_content {
+    grid-template-columns: 1fr;
+  }
+  .game_features .game_feature_wrapper .game_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1094px) {
+  /* html {
+    test it once
+    font-size: 8px;
+  } */
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 868px) {
+  .page_header_container .page_header .main_heading {
+    width: 100%;
+    position: relative;
+   
+  }
+}
+@media (max-width: 768px) {
+  .our_features .our_feature_wrapper .our_feature_cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
